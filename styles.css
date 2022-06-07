@@ -110,9 +110,17 @@ p {
   height: 45px;
   border-radius: 100%;
   border: none;
-  color: hsl(217, 12%, 63%);
-  background-color: hsl(213, 19%, 18%);
   font-size: 15px;
+}
+
+.button-grey {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+}
+
+.button-orange {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
 }
 
 .submit {
