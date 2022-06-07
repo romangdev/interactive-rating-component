@@ -62,9 +62,9 @@ body {
 
 .rating-card {
   font-family: 'Archivo Narrow', sans-serif;;
-  background-color: grey;
+  background-image: linear-gradient(hsl(209, 16%, 29%), hsl(210, 17%, 2%));
   width: 300px;
-  height: 300px;
+  height: 310px;
   padding: 30px;
   border-radius: 35px;
   display: flex;
@@ -76,7 +76,7 @@ body {
   width: 50px;
   padding: 16.5px 0 16.5px 0;
   border-radius: 100%;
-  background-color: black;
+  background-color: hsl(213, 19%, 18%);
   display: flex;
   justify-content: center;
 }
@@ -85,16 +85,18 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  letter-spacing: .8px;
 }
 
 h1 {
   color: white;
-  font-size: 30px;
+  font-size: 28px;
 }
 
 p {
   font-size: 15px;
-  line-height: 20px;
+  line-height: 23px;
+  color: hsl(217, 12%, 63%);
 }
 
 .rating {
@@ -108,12 +110,18 @@ p {
   height: 45px;
   border-radius: 100%;
   border: none;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  font-size: 15px;
 }
 
 .submit {
   height: 40px;
   border: none;
   border-radius: 30px;
+  letter-spacing: 2px;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
 }
 
 .attribution {
