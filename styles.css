@@ -105,12 +105,39 @@ p {
   justify-content: space-between;
 }
 
-.rating button {
+/* .rating button {
   width: 45px;
   height: 45px;
   border-radius: 100%;
   border: none;
   font-size: 15px;
+} */
+
+label {
+  position: relative;
+}
+
+#rad_1 + label:before {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  content: "1"
+}
+
+.rating input {
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: none;
 }
 
 .button-grey {
@@ -125,6 +152,8 @@ p {
 
 .submit {
   height: 40px;
+  width: 100%;
+  margin-top: 25px;
   border: none;
   border-radius: 30px;
   letter-spacing: 2px;

@@ -6,3 +6,4 @@ ratingButtons.forEach((button) => {
     button.classList.add("button-orange");
   });
 });
+
